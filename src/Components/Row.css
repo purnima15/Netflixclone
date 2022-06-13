@@ -1,3 +1,10 @@
+.row{
+margin-left: 20px;
+color: white;
+font-size: small;
+
+}
+
 .row_posters {
 
     display: flex;
@@ -22,4 +29,9 @@
 .row_poster:hover {
     transform: scale(1.08);
     opacity: 1;
+}
+
+.row_posterLarge{
+
+    max-height: 250px;
 }
